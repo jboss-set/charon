@@ -1,0 +1,181 @@
+A-MQ-artemis-wildfly-integration;mtaylor@redhat.com;GIT;https://github.com/rh-messaging/artemis-wildfly-integration.git;master;1.0.2;org.jboss.activemq.artemis.integration;;;
+aesh;alexey.loubyansky@redhat.com;GIT;https://github.com/aeshell/aesh.git;0.66+;0.66.4;org.jboss.aesh;;;No tag in repo(for 0.66.11.redhat-1), private one has tag based on commit from 0.66+
+antlr-antlr3;parrt@cs.usfca.edu;GIT;https://github.com/antlr/antlr3.git;master;antlr-3.5;org.antlr;;;
+antlr2;parrt@cs.usfca.edu;ARCHIVE;http://www.antlr2.org/download/antlr-2.7.7.tar.gz;;2.7.7.redhat-7;antlr;;;
+apache-activemq-artemis;;GIT;https://github.com/rh-messaging/jboss-activemq-artemis.git;jboss-1.1.0-x;1.1.0.wildfly-018;org.apache.activemq;;; Tag is just a wild guess?
+apache-commons-beanutils;apache;GIT;https://github.com/apache/commons-beanutils.git;trunk;BEANUTILS_1_9_2;commons-beanutils;;;
+apache-commons-cli;apache;GIT;https://github.com/apache/commons-cli.git;cli-1.x;cli-1.2;commons-cli;;;
+apache-commons-codec;apache;GIT;https://github.com/apache/commons-codec.git;trunk;1.10;commons-codec;;;
+apache-commons-collections;apache;GIT;https://github.com/apache/commons-collections.git;COLLECTIONS_3_2_X;COLLECTIONS_3_2_2;commons-collections;;;
+apache-commons-configuration;apache;GIT;https://github.com/apache/commons-configuration.git;CONFIGURATION_1_X_MAINTENANCE;CONFIGURATION_1_6;commons-configuration;;;This might not be in deps.
+apache-commons-io;apache;GIT;https://github.com/apache/commons-io.git;master;2.4;commons-io;;;there were three releases on the same day 2.2, 2.3 and 2.4...
+apache-commons-lang;apache;GIT;https://github.com/apache/commons-lang.git;LANG_2_X;LANG_2_6;commons-lang;;;
+apache-commons-parent;apache;SVN;http://svn.apache.org/repos/asf/commons/proper/commons-parent;trunk;tags/commons-parent-37;org.apache.commons;;;
+apache-commons-pool;apache;GIT;https://github.com/apache/commons-pool.git;POOL_1_X;POOL_1_6;commons-pool;;;
+apache-cxf;;GIT;https://github.com/apache/cxf.git;3.1.x-fixes;cxf-3.1.8;org.apache.cxf.archetype;;;
+apache-httpasyncclient;apache;GIT;https://github.com/apache/httpasyncclient.git;4.1.x;4.1;org.apache.httpcomponents;;;
+apache-httpclient;apache;GIT;https://github.com/apache/httpclient.git;4.5.x;4.5;org.apache.httpcomponents;;;
+apache-httpcore;apache;GIT;https://github.com/apache/httpcore.git;4.4.x;4.4.1;org.apache.httpcomponents;;;
+apache-lucene-solr;;GIT;https://github.com/apache/lucene-solr.git;;5.3.1.redhat-1;org.apache.lucene;;;No maintenance branch, history release from SVN ?
+apache-santuario-java;apache;GIT;https://github.com/apache/santuario-java.git;2.0.x-fixes;xmlsec-2.0.7;org.apache.santuario;;;
+apache-velocity;apache;SVN;http://svn.apache.org/repos/asf/velocity/engine;branches/1.7.x;1.7;org.apache.velocity;;;
+apache-webservices-commons-xmlschema;apache;SVN;http://svn.apache.org/repos/asf/webservices/xmlschema;trunk;tags/xmlschema-2.2.1;org.apache.ws.xmlschema;;;GIT repo is far behind, git.app mirror SVN
+apache-webservices-neethi;apache;GIT;https://github.com/apache/webservices-neethi.git;trunk;neethi-3.0.3;org.apache.neethi;;;
+apache-wss4j;apache;GIT;https://github.com/apache/wss4j.git;2_1_x-fixes;wss4j-2.1.7;org.apache.wss4j;;;
+apache-xjc-utils;apache;GIT;https://git-wip-us.apache.org/repos/asf/cxf-xjc-utils.git;master;xjc-utils-3.0.5;org.apache.cxf.xjc-utils;;;
+apache-xml-resolver;;;;;1.2-redhat-2;xml-resolver;;;
+asf-commons-proper-beanutils;apache;SVN;http://svn.apache.org/repos/asf/commons/proper/beanutils;trunk;tags/BEANUTILS_1_9_2;commons-beanutils;;;
+asm;Forax, Remi (?);SVN;svn://svn.forge.objectweb.org/svnroot/asm;;ASM_3_3_1;asm;;; NOTE: no branch present?
+atinject;https://code.google.com/p/atinject/people/list;SVN;http://atinject.googlecode.com/svn/trunk/;;1.0.0.redhat-6;javax.inject;;; NOTE repository is gone, since google sacked SVN
+avro;apache;GIT;https://github.com/apache/avro/tree/branch-1.7;branch-1.7;release-1.7.6;org.apache.avro;;;
+Azure-azure-storage-java;mlegerner@outlook.com;GIT;https://github.com/Azure/azure-storage-java.git;master;v4.0.0;com.microsoft.azure;;;
+bcgit-bc-java;peter.dettman@bouncycastle.org;GIT;https://github.com/bcgit/bc-java.git;master;r1rv52;org.bouncycastle;;;
+beanvalidation-api;ebernard@redhat.com;GIT;https://github.com/beanvalidation/beanvalidation-api.git;1.1;1.1.0.Final;javax.validation;;;
+cal10n;ceki@qos.ch;GIT;https://github.com/qos-ch/cal10n.git;master;v_0.8.1;ch.qos.cal10n.plugins;;;
+cdi-spec-cdi;pmuir@redhat.com;GIT;https://github.com/cdi-spec/cdi.git;1.2;1.2;javax.enterprise;;;
+codehaus-jackson;;GIT;https://github.com/codehaus/jackson.git;master;1.9.13.redhat-4;org.codehaus.jackson;;;There is no tag in repo, only commits?
+codehaus-jaxen;;GIT;https://github.com/codehaus/jaxen.git;master;V_1_1_6_Final;jaxen;;;
+codehaus-jettison;sergey_beryozkin;GIT;https://github.com/codehaus/jettison.git;master;jettison-1.3.3;org.codehaus.jettison;;;
+codehaus-woodstox-git;;GIT;https://github.com/codehaus/woodstox.git;;3.1.4.redhat-1;org.codehaus.woodstox;;; No 3.x code base present, nor tag ?
+dom4j;Filip Jirsák;GIT;https://github.com/dom4j/dom4j.git;master;dom4j_1_6_1;;;;
+eclipse-jdt-eclipse.jdt.core;;GIT;https://git.eclipse.org/r/jdt/eclipse.jdt.core;master;4.4.2.redhat-1;org.eclipse.jdt.core.compiler;;;master is at 4.7, but repo seems dead 
+FasterXML-jackson-annotations;tsaloranta@gmail.com;GIT;https://github.com/FasterXML/jackson-annotations.git;2.5;jackson-annotations-2.5.4;com.fasterxml.jackson.core;;;
+FasterXML-jackson-core;tsaloranta@gmail.com;GIT;https://github.com/FasterXML/jackson-core.git;2.5;jackson-core-2.5.4;com.fasterxml.jackson.core;;;
+FasterXML-jackson-databind;tsaloranta@gmail.com;GIT;https://github.com/FasterXML/jackson-databind.git;2.5;jackson-databind-2.5.4;com.fasterxml.jackson.core;;;
+FasterXML-jackson-jaxrs-providers;tsaloranta@gmail.com;GIT;https://github.com/FasterXML/jackson-jaxrs-providers.git;2.8;jackson-jaxrs-providers-2.5.4;com.fasterxml.jackson.jaxrs;;;
+FasterXML-jackson-module-jaxb-annotations;tsaloranta@gmail.com;GIT;https://github.com/FasterXML/jackson-module-jaxb-annotations.git;2.8;jackson-module-jaxb-annotations-2.5.4;com.fasterxml.jackson.module;;;
+FasterXML-stax2-api;tsaloranta@gmail.com;GIT;https://github.com/FasterXML/stax2-api.git;3.1;stax2-api-3.1.4;org.codehaus.woodstox;;;
+gf-metro-jaxb;Iaroslav Savytskyi SUN;GIT;https://github.com/gf-metro/jaxb.git;jaxb-2_2_11-branch;;com.sun.xml.bind.external;;; There is no 2.2.11 tag for 2.2.11.redhat-4 in main repo, 
+glassfish-concurrent;;SVN;https://svn.java.net/svn/cu-javaee~source-code-repository/;trunk;tags/javax.enterprise.concurrent-1.0/;org.glassfish;;;;
+glassfish-fastinfoset;https://java.net/projects/fi/members?page=4&project_id=fi&theme=java.net;SVN;https://svn.java.net/svn/fi~svn;branches/FastInfoset-1_2-branch;;com.sun.xml.fastinfoset;;; we are at 1.2.13, latest tag is '12'
+glassfish-jaf;;SVN;https://svn.java.net/svn/glassfish~svn/trunk/v2/activation/;;1.1.1.redhat-5;javax.activation;;; No branch, messy repo, ant+mvn release
+glassfish-json;;GIT;git://java.net/jsonp~git;master;jsonp-1.0.3;org.glassfish;;;
+guava-libraries;Apache/Google/cgdecker@gmail.com;GIT;https://github.com/google/guava.git;master;v18.0;com.google.guava;;;
+h2database;;GIT;https://github.com/h2database/h2database.git;master;1.3.173;com.h2database;;; 1.3.173 branch exist only in git.app, import from non existing SVN tag/branch!
+hal-release-stream;hpehl@redhat.com;GIT;https://github.com/hal/release-stream.git;2.8.x;2.8.28.Final;org.jboss.hal;;;
+hibernate-hibernate-commons-annotations;ebernard@redhat.com/gbadner@redhat.com;GIT;https://github.com/hibernate/hibernate-commons-annotations.git;master;5.0.1.Final;org.hibernate.common;;;
+hibernate-hibernate-core;ebernard@redhat.com/gbadner@redhat.com;GIT;https://github.com/hibernate/hibernate-orm.git;5.0;5.0.11;org.hibernate.orm.tooling;;;
+hibernate-hibernate-jpa-api;ebernard@redhat.com/gbadner@redhat.com;GIT;https://github.com/hibernate/hibernate-jpa-api.git;master;2.10.Final;org.hibernate.javax.persistence;;;NOTE: maintenance is nightmare, gradle vs maven, in maintenance master API version is tag name? Artifacts in EAP 1.0.0.Final-redhat-2
+hibernate-hibernate-search;ebernard@redhat.com/gbadner@redhat.com;GIT;https://github.com/hibernate/hibernate-search.git;5.5;5.5.2.Final;org.hibernate;;;
+hibernate-hibernate-validator;ebernard@redhat.com/gbadner@redhat.com;GIT;https://github.com/hibernate/hibernate-validator.git;5.2;5.2.4.Final;org.hibernate;;;
+hibernate-jpa-api;ebernard@redhat.com;SVN;https://anonsvn.jboss.org/repos/hibernate/jpa-api/;trunk;tags/hibernate-jpa-2.0-api-1.0.1.Final;org.hibernate.javax.persistence;;;NOTE: this is best guess.
+hornetq-hornetq;jbertram@redhat.com/csuconic@redhat.com;GIT;https://github.com/hornetq/hornetq.git;2.4.x;HornetQ_2_4_7_Final;org.hornetq;;;
+httpcomponents;apache;SVN;http://svn.apache.org/repos/asf/httpcomponents/;httpcore/branches/4.4.x;httpcore/tags/4.4.1;org.apache.httpcomponents;;; Many components/projects in single repo. Branch/tag is just an example. git.app seem to be dead?
+infinispan-infinispan;Manik Surtani/gzamarre@redhat.com;GIT;https://github.com/infinispan/infinispan.git;8.1.x;8.1.6.Final;org.infinispan.server;;;
+ironjacamar;jesper.pedersen@redhat.com;GIT;https://github.com/ironjacamar/ironjacamar.git;ironjacamar-1.3.5.Final;org.jboss.ironjacamar;;;
+istack-commons;;SVN;https://svn.java.net/svn/istack-commons~svn;trunk;tags/istack-commons-2.21;com.sun.istack;;; No maintenance branch for 2.21, trunk is at 3.x
+jandex;jason.greene@redhat.com;GIT;https://github.com/wildfly/jandex.git;master;2.0.2.Final;org.jboss;;;
+jansi;Hiram Chirino - FuseSource Corp.;GIT;https://github.com/fusesource/jansi.git;master;jansi-project-1.11;org.fusesource.jansi;;;
+jasypt;;SVN;https://svn.code.sf.net/p/jasypt/code/;trunk/jasypt;tags/jasypt/jasypt-1.9.1;org.jasypt;;;
+java-classmate;tsaloranta@gmail.com;GIT;https://github.com/FasterXML/java-classmate.git;master;classmate-1.1.0;com.fasterxml;;; No 1.1.x branch
+java-getopt;;GIT;https://github.com/arenn/java-getopt.git;;1.0.13.redhat-5;gnu.getopt;;; Master is the branch, no tags, just binary
+jaxb~version2;;SVN;https://svn.java.net/svn/jaxb~version2/;branches/jaxb-2_2_5_1;tags/jaxb-2_2_5/;com.sun.xml.bind;;;This is best guess. EAPs are at 2.2.11(I think)
+jberet-jsr352;;GIT;https://github.com/jberet/jsr352.git;1.2.x;1.2.1.Final;org.jberet.test-apps;;;
+jboss-glassfish-javamail;;UNKNOWN;https://kenai.com/hg/javamail~mercurial;;1.5.5.redhat-2;com.sun.mail;;;No maintenance branch, only "trunk", last tag is 1.5.0
+jboss-javassist-javassist;Shigeru Chiba;GIT;https://github.com/jboss-javassist/javassist.git;master;rel_3_18_1_ga;org.javassist;;;
+jboss-jboss-annotations-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-annotations-api_spec.git;master;jboss-annotations-api_1.2_spec-1.0.0.Final;org.jboss.spec.javax.annotation;;;
+jboss-jboss-batch-api_spec;;GIT;https://github.com/jboss/jboss-batch-api_spec.git;master;jboss-batch-api_1.0_spec-1.0.0.Final;org.jboss.spec.javax.batch;;;
+jboss-jboss-common-beans;cdewolf@redhat.com/bbaranow@redhat.com;GIT;https://github.com/jboss/jboss-common-beans.git;master;2.0.0.Final;org.jboss.common;;;
+jboss-jboss-connector-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-connector-api_spec.git;master;jboss-connector-api_1.7_spec-1.0.0.Final;org.jboss.spec.javax.resource;;;
+jboss-jboss-ejb-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-ejb-api_spec.git;master;jboss-ejb-api_3.2_spec-1.0.0.Final;org.jboss.spec.javax.ejb;;;
+jboss-jboss-el-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-el-api_spec.git;jboss-el-api_3.0-1.0.x;jboss-el-api_3.0_spec-1.0.6.Final;org.jboss.spec.javax.el;;;
+jboss-jboss-interceptors-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-interceptors-api_spec.git;master;jboss-interceptors-api_1.2_spec-1.0.0.Final;org.jboss.spec.javax.interceptor;;;
+jboss-jboss-j2eemgmt-api_spec;pgier@redhat.com;GIT;https://github.com/jboss/jboss-j2eemgmt-api_spec.git;master;jboss-j2eemgmt-api_1.1_spec-1.0.1.Final;org.jboss.spec.javax.management.j2ee;;;
+jboss-jboss-jacc-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jacc-api_spec.git;master;jboss-jacc-api_1.5_spec-1.0.0.Final;org.jboss.spec.javax.security.jacc;;;
+jboss-jboss-jaspi-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jaspi-api_spec.git;master;jboss-jaspi-api_1.1_spec-1.0.0.Final;org.jboss.spec.javax.security.auth.message;;;
+jboss-jboss-javaee-concurrency-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-javaee-concurrency-api_spec.git;master;jboss-concurrency-api_1.0_spec-1.0.0.Final;org.jboss.spec.javax.enterprise.concurrent;;;
+jboss-jboss-jaxb-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jaxb-api_spec.git;master;jboss-jaxb-api_2.2_spec-1.0.4.Final;org.jboss.spec.javax.xml.bind;;;
+jboss-jboss-jaxrpc-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jaxrpc-api_spec.git;master;jboss-jaxrpc-api_1.1_spec-1.0.1.Final;org.jboss.spec.javax.xml.rpc;;;
+jboss-jboss-jaxrs-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jaxrs-api_spec.git;master;jboss-jaxrs-api_2.0_spec-1.0.0.Final;org.jboss.spec.javax.ws.rs;;;
+jboss-jboss-jaxws-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jaxws-api_spec.git;master;jboss-jaxws-api_2.2_spec-2.0.2.Final;org.jboss.spec.javax.xml.ws;;;
+jboss-jboss-jms-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jms-api_spec.git;master;jboss-jms-api_2.0_spec-1.0.0.Final;org.jboss.spec.javax.jms;;;
+jboss-jboss-jsf-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jsf-api_spec.git;master;jboss-jsf-api_2.2_spec-2.2.12.Final;org.jboss.spec.javax.faces;;;
+jboss-jboss-jsp-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-jsp-api_spec.git;master;jboss-jsp-api_2.3_spec-1.0.1.Final;org.jboss.spec.javax.servlet.jsp;;;
+jboss-jboss-jstl-api_spec;tcerar@redhat.com;GIT;https://github.com/jboss/jboss-jstl-api_spec.git;master;jboss-jstl-api_1.2_spec-1.1.3.Final;org.jboss.spec.javax.servlet.jstl;;;
+jboss-jboss-rmi-api_spec;sdouglas@redhat.com;GIT;https://github.com/jboss/jboss-rmi-api_spec.git;master;jboss-rmi-api_1.0_spec-1.0.4.Final;org.jboss.spec.javax.rmi;;;
+jboss-jboss-saaj-api_spec;smcgowan@redhat.com;GIT;https://github.com/jboss/jboss-saaj-api_spec.git;master;jboss-saaj-api_1.3_spec-1.0.3.Final;org.jboss.spec.javax.xml.soap;;;
+jboss-jboss-servlet-api_spec;smcgowan@redhat.com/sdouglas@redhat.com;GIT;https://github.com/jboss/jboss-servlet-api_spec.git;servlet-api_3.1;jboss-servlet-api_3.1_spec-1.0.0.Final;org.jboss.spec.javax.servlet;;;
+jboss-jboss-transaction-api_spec;smcgowan@redhat.com/tcerar@redhat.com;GIT;https://github.com/jboss/jboss-transaction-api_spec.git;master;jboss-transaction-api_1.2_spec-1.0.0.Final;org.jboss.spec.javax.transaction;;;
+jboss-jboss-websocket-api_spec;smcgowan@redhat.com/sdouglas@redhat.com;GIT;https://github.com/jboss/jboss-websocket-api_spec.git;master;1.1.1.Final;org.jboss.spec.javax.websocket;;;
+jboss-logging;jperkins@redhat.com;GIT;https://github.com/jboss-logging/jboss-logging.git;master;3.3.0.Final1;org.jboss.logging;;;
+jboss-logging-jul-to-slf4j-stub;jperkins@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-logging/jul-to-slf4j-stub.git;master;1.0.1.Final;org.jboss.logging;;;
+jboss-logging-log4j-jboss-logmanager;jperkins@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-logging/log4j-jboss-logmanager.git;msater;1.1.2.Final;org.jboss.logmanager;;;
+jboss-logging-slf4j-jboss-logmanager;jperkins@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-logging/slf4j-jboss-logmanager.git;master;1.0.3.GA;org.jboss.slf4j;;;
+jboss-logmanager;jperkins@redhat.com;GIT;https://github.com/jboss-logging/jboss-logmanager.git;2.0;2.0.3.Final;org.jboss.logmanager;;;
+jboss-metadata;cdewolf@@redhat.com/sdouglas@redhat.com;GIT;https://github.com/jboss/metadata.git;master;10.0.0.Final;org.jboss.metadata;;;
+jboss-negotiation;darran.lofthouse@redhat.com;GIT;https://github.com/wildfly-security/jboss-negotiation.git;master;3.0.3.Final;org.jboss.security;;;
+jboss-openjdk-orb;tadamski@redhat.com;GIT;https://github.com/jboss/openjdk-orb.git;master;openjdk-orb-8.0.6.Final;org.jboss.openjdk-orb;;;
+jboss-remoting-jboss-marshalling;ropalka@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-remoting/jboss-marshalling.git;1.4;1.4.10.Final;org.jboss.marshalling;;;
+jboss-remoting-jboss-remoting;dlloyd@redhat.com/sdouglas@redhat.com;GIT;https://github.com/jboss-remoting/jboss-remoting.git;4.0;4.0.21.Final;org.jboss.remoting;;;
+jboss-remoting-jboss-sasl;darran.lofthouse@redhat.com;GIT;https://github.com/jboss-remoting/jboss-sasl.git;master;1.0.5.Final;org.jboss.sasl;;;
+jboss-remoting-xnio;dlloyd@redhat.com;GIT;https://github.com/xnio/xnio.git;3.4;3.4.1.Final;org.jboss.xnio;;;
+jboss-uel;tcerar@redhat.com;GIT;https://github.com/jboss/uel.git;master;3.0.1-b08-jbossorg-1;org.glassfish;;;
+jboss-xalan-j;jgreene@redhat.com;GIT;https://github.com/jboss/xalan-j.git;jboss_2_7_1;2.7.1.jbossorg-2;xalan;;;Upstream of this belongs to Apache. git.app branch is up2date with branch and tags are made from it.
+jbossas-jboss-classfilewriter;sdouglas@redhat.com;GIT;https://github.com/jbossas/jboss-classfilewriter.git;master;1.1.2.Final;org.jboss.classfilewriter;;; master is at 1.2 now
+jbossas-jboss-dmr;bstansberry@redhat.com;GIT;https://github.com/jbossas/jboss-dmr.git;1.3;1.3.0.Final;org.jboss;;;
+jbossas-jboss-ejb-client;dlloyd@redhat.com;GIT;https://github.com/jbossas/jboss-ejb-client.git;2.1;2.1.7.Final;org.jboss;;;
+jbossas-jboss-iiop-client;sdouglas@redhat.com;GIT;https://github.com/jbossas/jboss-iiop-client.git;master;1.0.0.Final;org.jboss;;;
+jbossas-jboss-invocation;dlloyd@redhat.com;GIT;https://github.com/jbossas/jboss-invocation.git;1.4;1.4.1.Final;org.jboss.invocation;;;
+jbossas-jboss-modules;dlloyd@redhat.com;GIT;https://github.com/jbossas/jboss-modules.git;1.5;1.5.1.Final;org.jboss.modules;;;
+jbossas-jboss-msc;dlloyd@redhat.com;GIT;https://github.com/jbossas/jboss-msc.git;1.2;1.2.6.Final;org.jboss.msc;;;
+jbossas-jboss-remote-naming;dlloyd@redhat.com;GIT;https://github.com/jbossas/jboss-remote-naming.git;master;2.0.4.Final;org.jboss;;;
+jbossas-jboss-seam-int;ajustin@redhat.com;SVN;https://anonsvn.jboss.org/repos/jbossas/projects/jboss-seam-int;trunk;tags/7.0.0.GA;org.jboss.seam.integration;;;
+jbossas-jboss-stdio;dlloyd@redhat.com;GIT;https://github.com/jboss-logging/jboss-stdio.git;1.0;1.0.2.GA;org.jboss.stdio;;;
+jbossas-jboss-threads;bstansberry@redhat.com;GIT;https://github.com/jbossas/jboss-threads.git;2.2;2.2.1.Final;org.jboss.threads;;;
+jbossas-jboss-vfs;tcerar@redhat.com;GIT;https://github.com/jbossas/jboss-vfs.git;3.2;jboss-vfs-3.2.11.Final;org.jboss;;;
+jbossas-jboss-xacml-main;pskope@redhat.com;GIT;https://github.com/picketbox/security-xacml.git;masert;;org.jboss.security;;; No tag in repo, present is 2.0.9, EAP is at 2.0.8.Final-redhat-7, it is in SVN at jbossas-projects-security-security-xacml
+jbossas-projects-security-security-xacml;pskopek@redhat.com;SVN;http://anonsvn.jboss.org/repos/jbossas/projects/security/security-xacml;trunk;tags/2.0.8.Final;org.jboss.security;;;
+jbossas-redhat-picketlink;pskopek@redhat.com;GIT;https://github.com/jbossas/redhat-picketlink.git;eap-7.x;v2.5.5.SP3;org.picketlink;;;
+jbossas-remoting-jmx;darran.lofthouse@redhat.com;GIT;https://github.com/jbossas/remoting-jmx.git;2.0.x;2.0.1.Final;org.jboss.remotingjmx;;;
+jbossas-staxmapper;dlloyd@redhat.com;GIT;https://github.com/jbossas/staxmapper.git;master;1.2.0.Final;org.jboss;;; master is at 1.4.0, there is no maintenance branch
+jbosstm-jboss-transaction-spi;mmusgrov@redhat.com;GIT;https://github.com/jbosstm/jboss-transaction-spi.git;7.3.0.SPx;7.3.0.SP1;org.jboss;;;
+jbossws-jaxws-undertow-httpspi;asoldano@redhat.com;GIT;https://github.com/jbossws/jaxws-undertow-httpspi.git;master;jaxws-undertow-httpspi-1.0.1.Final;org.jboss.ws.projects;;;
+jbossws-jboss-jaxb-intros;asoldano@redhat.com;SVN;http://anonsvn.jboss.org/repos/jbossws/projects/jaxbintros;trunk;tags/1.0.2.GA;jboss.jaxbintros;;;
+jbossws-jbossws-api;asoldano@redhat.com;GIT;https://github.com/jbossws/jbossws-api.git;master;jbossws-api-1.0.3.Final;org.jboss.ws;;;
+jbossws-jbossws-common;asoldano@redhat.com;GIT;https://github.com/jbossws/jbossws-common.git;jbossws-common-3.1.x;jbossws-common-3.1.3.Final;org.jboss.ws;;;
+jbossws-jbossws-common-tools;asoldano@redhat.com;GIT;https://github.com/jbossws/jbossws-common-tools.git;master;jbossws-common-tools-1.2.2.Final;org.jboss.ws;;;
+jbossws-jbossws-cxf;asoldano@redhat.com;GIT;https://github.com/jbossws/jbossws-cxf.git;jbossws-cxf-5.1.x;jbossws-cxf-5.1.5.Final;org.jboss.ws.cxf;;;
+jbossws-jbossws-spi;asoldano@redhat.com;GIT;https://github.com/jbossws/jbossws-spi.git;jbossws-spi-3.1.x;jbossws-spi-3.1.2.Final;org.jboss.ws;;;
+jcip-annotations;;ARCHIVE;http://jcip.net/jcip-annotations-src.jar;;1.0.redhat-6;net.jcip;;;
+jdeparser;tcerar@redhat.com;GIT;https://github.com/jdeparser/jdeparser;;1;org.jboss.jdeparser;;; EAP7  is at 2.x, repo has 1.0 and 1.1
+jdom;https://github.com/rolfl;GIT;https://github.com/hunterhacker/jdom.git;jdom-1.1;jdom-1.1.3;org.jdom;;;
+JGroups;belaban@yahoo.com;GIT;https://github.com/belaban/JGroups.git;3.6;JGroups-3.6.10.Final;org.jgroups;;;
+jgroups-extras-jgroups-azure;rhusar@redhat.com;GIT;https://github.com/jgroups-extras/jgroups-azure.git;master;1.0.0.Final;org.jgroups;;;
+jhy-jsoup;;GIT;https://github.com/jhy/jsoup.git;master;jsoup-1.8.3;org.jsoup;;; There is no maintenance branch for 1.8, master is at 1.10
+jms-ra-generic-jms-ra;jmesnil@redhat.com;GIT;https://github.com/jms-ra/generic-jms-ra.git;1.x;1.0.8.Final;org.jboss.genericjms;;; This is clone of another repo
+joda-time;scolebourne@joda.org;GIT;https://github.com/JodaOrg/joda-time.git;master;v2.7;joda-time;;; There is no 2.7.x branch, master is at 2.9.6
+jsr181-api;;ARCHIVE;http://repo1.maven.org/maven2/javax/jws/jsr181-api/1.0-MR1/jsr181-api-1.0-MR1-sources.jar;;1.0.0.MR1-redhat-8;javax.jws;;;
+messaging-commons-logging;;GIT;https://github.com/rh-messaging/commons-logging.git;;1.2.0.redhat-2;commons-logging;;; Repo does not exist?
+mod_cluster;jclere@redhat.com;GIT;https://github.com/modcluster/mod_cluster.git;1.3.x;1.3.3.Final;org.jboss.mod_cluster;;;
+narayana;tom.jenkinson@redhat.com;GIT;https://github.com/jbosstm/narayana.git;5.2;5.2.20.Final;org.jboss.narayana;;;
+netty-netty;t@motd.kr;GIT;https://github.com/netty/netty.git;4.0;netty-4.0.32.Final;io.netty;;;
+picketbox;pskopek@redhat.com;GIT;https://github.com/jbossas/redhat-picketbox.git;eap-7.x;v4.9.7.Final;org.picketbox;;; There is eap-7.x(4.9.x) branch, but current 7.x is at master. No tag, last is 5.0.0A2, 7.x is at A3
+picketbox-commons;pskopek@redhat.com;SVN;http://anonsvn.jboss.org/repos/picketbox/commons;trunk;tags/1.0.0.final;org.picketbox;;;
+picketlink-bindings-25;pskopek@redhat.com;GIT;https://github.com/jbossas/redhat-picketlink-bindings.git;eap-7.x;v2.5.5.SP4;org.picketlink.distribution;;;
+relaxng-datatype-java;;GIT;git://git.app.eng.bos.redhat.com/relaxng-datatype-java.git;;2011.1-redhat-6;com.github.relaxng;;; No upstream, only repo is git.app ?
+resteasy;alessio.soldano@jboss.com/bburke@redhat.com;GIT;https://github.com/resteasy/resteasy;3.0.x;3.0.19.Final;org.jboss.resteasy;;; There is https://github.com/jbossas/redhat-resteasy but it is dead?
+saaj-impl;cdewolf@redhat.com;GIT;https://github.com/jbossas/redhat-saaj.git;1.3.16.SP;saaj-impl-1.3.16.SP1;com.sun.xml.messaging.saaj;;; There are upstream repos.
+shibboleth-java-opensaml;;SVN;https://svn.shibboleth.net/java-opensaml;trunk;tags/3.1.1;org.opensaml;;;
+shibboleth-utilities-java-support;;GIT;git://git.shibboleth.net/java-support;;7.1.1.redhat-1;net.shibboleth.utilities;;; Repo is dead?
+shrinkwrap-shrinkwrap;arubinge@redhat.com/aknutsen@redhat.com;GIT;https://github.com/shrinkwrap/shrinkwrap.git;master;1.1.2;org.jboss.shrinkwrap;;; There is no 1.1.x, only 1.0.x. Master is at 1.2.x
+slf4j;ceki@qos.ch;GIT;https://github.com/qos-ch/slf4j;master;v1.7.7;org.slf4j;;;
+snakeyaml;Andrey Somov;GIT;https://bitbucket.org/asomov/snakeyaml;default;v1.15;org.yaml;;;
+soa-soa-component-management;;GIT;???;;2.3.0.redhat-9;org.jboss.dv.component.management;;; No upstream, git.app https://code.engineering.redhat.com/gerrit/soa/soa-component-management.git
+spullara-mustache.java;sam@sampullara.com;GIT;https://github.com/spullara/mustache.java;mustache.java-0.8.x;mustache.java-0.8.13;com.github.spullara.mustache.java;;;
+undertow-io-jastow;sdouglas@redhat.com;GIT;https://github.com/undertow-io/jastow;master;2.0.0.Final;io.undertow.jastow;;;
+undertow-io-undertow;sdouglas@redhat.com;GIT;https://github.com/undertow-io/undertow;1.3.x;1.3.25.Final;io.undertow;;;
+undertow-io-undertow-js;sdouglas@redhat.com;GIT;https://github.com/undertow-io/undertow.js.git;1.0.x;1.0.2.Final;io.undertow.js;;;
+vt-middleware-cryptacular;marvin.addison@gmail.com;GIT;https://github.com/vt-middleware/cryptacular;master;v1.0;org.cryptacular;;; There is 1.1 branch, but not 1.0. Master is at 1.2
+weld-api;mkouba@redhat.com;GIT;https://github.com/weld/api;2.3;2.3.SP1;org.jboss.weld;;;
+weld-cdi-api;pmuir@redhat.com;SVN;http://anonsvn.jboss.org/repos/weld/cdi-api/;;1.0.0.SP4-redhat-5;javax.enterprise;;; EAP7.x is at 1.2, there is no tag/version beyond 1.0
+weld-core;mkouba@redhat.com;GIT;https://github.com/weld/core;2.3;2.3.3.Final;org.jboss.weld.environment;;;
+wildfly-jboss-ejb3-ext-api;cdewolf@redhat.com/sdouglas@redhat.com;GIT;https://github.com/wildfly/jboss-ejb3-ext-api;master;2.2.0.Final;org.jboss.ejb3;;;
+wildfly-security-wildfly-elytron;darran.lofthouse@redhat.com;GIT;https://github.com/wildfly-security/wildfly-elytron;1.0.x;1.0.2.Final;org.wildfly.security;;;
+wildfly-wildfly-common;dlloyd@redhat.com;GIT;https://github.com/wildfly/wildfly-common;1.1;1.1.0.Final;org.wildfly.common;;;
+wildfly-wildfly-core;bstansberry@redhat.com;GIT;https://github.com/jbossas/wildfly-core-eap;2.1.x;2.1.10.Final-redhat-dev;org.wildfly.core;;;
+wsdl4j;;CVS;:pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j wsdlčj;;1.6.3.redhat-2;wsdl4j;;;
+xerces2-j;;GIT;git://git.apache.org/xerces2-j.git;;Xerces-J_2_11_0;xerces;;;EAP7.x is at 2.11.0.SP5-redhat-1, no idea which branch is maintenance branch there.
+xml-commons;;SVN;https://svn.apache.org/repos/asf/xerces/xml-commons/;;tags/xml-commons-resolver-1_2;xml-resolver;;;No idea which 
+xnio-netty-xnio-transport;norman.maurer@googlemail.com;GIT;https://github.com/xnio/netty-xnio-transport.git;0.1;netty-xnio-transport-0.1.1.Final;org.jboss.xnio.netty;;; Master is at 0.1.1CR3. 0.1 branch is at 0.1.2-SNAP, werird.
+xom;elharo@ibiblio.org;SVN;https://svn.java.net/svn/xom~svn;trunk;tags/XOM_12;com.io7m.xom;;;This is just best guess, EAP7.x is at 1.2.10. There a git repo: https://github.com/elharo/xom
+xsom;;SVN;https://svn.java.net/svn/xsom~sources;trunk;;com.sun.xsom;;;EAP7.x is at 20140925.0.0.redhat-1, there is no 0925 tag. There is GIT repo: https://github.com/kohsuke/xsom/ , but it is in the same state.
