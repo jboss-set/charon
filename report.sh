@@ -136,18 +136,27 @@ while read component; do
         checkoutSVN "${PIECES[3]}" "${PIECES[4]}"
         #There is no way to calculate tag diff for svn?
         tableCreateCell ""
-        loc=$(getLinesOfCode "${PIECES[0]}")
-        [[ $loc =~ _code_\/.+\.txt ]]
-        tableCreateCellLink "$BASH_REMATCH"
+        if [ -d "$REPO_DIR" ]; then
+            loc=$(getLinesOfCode "${PIECES[0]}")
+            [[ $loc =~ _code_\/.+\.txt ]]
+            tableCreateCellLink "$BASH_REMATCH"
+        else 
+            tableCreateCell ""
+        fi
     elif [ "${PIECES[2]}" = "GIT" ]; then
         checkoutGIT "${PIECES[3]}"
-        getGITCommitsFromBranch "${PIECES[4]}" "${PIECES[5]}"
-        tableCreateCell "$?"
-        loc=$(getLinesOfCode "${PIECES[0]}")
-        #grep + regexp is required, since CLOC or shell adds some trash to 'loc'
-        [[ $loc =~ _code_\/.+\.txt ]]
-        # BASH_REMATCH contain result of above call
-        tableCreateCellLink "$BASH_REMATCH"
+        if [ -d "$REPO_DIR" ]; then
+            getGITCommitsFromBranch "${PIECES[4]}" "${PIECES[5]}"
+            tableCreateCell "$?"
+            loc=$(getLinesOfCode "${PIECES[0]}")
+            #grep + regexp is required, since CLOC or shell adds some trash to 'loc'
+            [[ $loc =~ _code_\/.+\.txt ]]
+            # BASH_REMATCH contain result of above call
+            tableCreateCellLink "$BASH_REMATCH"
+        else
+            tableCreateCell ""
+            tableCreateCell ""
+        fi
     
     else 
         tableCreateCell "${PIECES[7]}"
