@@ -38,6 +38,9 @@ checkoutSVN(){
         return 0
     fi
     
+    echo ""
+    echo "Checkout \"$1\""
+    echo ""
     svn checkout $1/$2 $REPO_DIR
 }
 
@@ -46,6 +49,9 @@ checkoutGIT(){
     if [ "$1" = "" ]; then
         return 0
     fi
+    echo ""
+    echo "Checkout \"$1\""
+    echo ""
     git clone $1 $REPO_DIR
     return 0
 }
