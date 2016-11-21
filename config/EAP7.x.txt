@@ -28,7 +28,7 @@ apache-xml-resolver;;;;;1.2-redhat-2;xml-resolver;;;
 asf-commons-proper-beanutils;apache;SVN;http://svn.apache.org/repos/asf/commons/proper/beanutils;trunk;tags/BEANUTILS_1_9_2;commons-beanutils;;;
 asm;Forax, Remi (?);SVN;svn://svn.forge.objectweb.org/svnroot/asm;;ASM_3_3_1;asm;;; NOTE: no branch present?
 atinject;https://code.google.com/p/atinject/people/list;SVN;http://atinject.googlecode.com/svn/trunk/;;1.0.0.redhat-6;javax.inject;;; NOTE repository is gone, since google sacked SVN
-avro;apache;GIT;https://github.com/apache/avro/tree/branch-1.7;branch-1.7;release-1.7.6;org.apache.avro;;;
+avro;apache;GIT;https://github.com/apache/avro;branch-1.7;release-1.7.6;org.apache.avro;;;
 Azure-azure-storage-java;mlegerner@outlook.com;GIT;https://github.com/Azure/azure-storage-java.git;master;v4.0.0;com.microsoft.azure;;;
 bcgit-bc-java;peter.dettman@bouncycastle.org;GIT;https://github.com/bcgit/bc-java.git;master;r1rv52;org.bouncycastle;;;
 beanvalidation-api;ebernard@redhat.com;GIT;https://github.com/beanvalidation/beanvalidation-api.git;1.1;1.1.0.Final;javax.validation;;;
@@ -65,7 +65,7 @@ hibernate-jpa-api;ebernard@redhat.com;SVN;https://anonsvn.jboss.org/repos/hibern
 hornetq-hornetq;jbertram@redhat.com/csuconic@redhat.com;GIT;https://github.com/hornetq/hornetq.git;2.4.x;HornetQ_2_4_7_Final;org.hornetq;;;
 httpcomponents;apache;SVN;http://svn.apache.org/repos/asf/httpcomponents/;httpcore/branches/4.4.x;httpcore/tags/4.4.1;org.apache.httpcomponents;;; Many components/projects in single repo. Branch/tag is just an example. git.app seem to be dead?
 infinispan-infinispan;Manik Surtani/gzamarre@redhat.com;GIT;https://github.com/infinispan/infinispan.git;8.2.x;8.2.4.Final;org.infinispan.server;;;
-ironjacamar;jesper.pedersen@redhat.com;GIT;https://github.com/ironjacamar/ironjacamar.git;ironjacamar-1.3.4.Final;org.jboss.ironjacamar;;;
+ironjacamar;jesper.pedersen@redhat.com;GIT;https://github.com/ironjacamar/ironjacamar.git;1.3;ironjacamar-1.3.4.Final;org.jboss.ironjacamar;;;
 istack-commons;;SVN;https://svn.java.net/svn/istack-commons~svn;trunk;tags/istack-commons-2.21;com.sun.istack;;; No maintenance branch for 2.21, trunk is at 3.x
 jandex;jason.greene@redhat.com;GIT;https://github.com/wildfly/jandex.git;master;2.0.3.Final;org.jboss;;;
 jansi;Hiram Chirino - FuseSource Corp.;GIT;https://github.com/fusesource/jansi.git;master;jansi-project-1.11;org.fusesource.jansi;;;
@@ -103,7 +103,7 @@ jboss-jboss-websocket-api_spec;smcgowan@redhat.com/sdouglas@redhat.com;GIT;https
 jboss-logging;jperkins@redhat.com;GIT;https://github.com/jboss-logging/jboss-logging.git;master;3.3.0.Final1;org.jboss.logging;;;
 jboss-logging-commons-logging-jboss-logmanager;jperkins@redhat.com;GIT;https://github.com/jboss-logging/commons-logging-jboss-logmanager.git;master;1.0.0.Final;org.jboss.logmanager;;;
 jboss-logging-jul-to-slf4j-stub;jperkins@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-logging/jul-to-slf4j-stub.git;master;1.0.1.Final;org.jboss.logging;;;
-jboss-logging-log4j-jboss-logmanager;jperkins@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-logging/log4j-jboss-logmanager.git;msater;1.1.2.Final;org.jboss.logmanager;;;
+jboss-logging-log4j-jboss-logmanager;jperkins@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-logging/log4j-jboss-logmanager.git;master;1.1.2.Final;org.jboss.logmanager;;;
 jboss-logging-slf4j-jboss-logmanager;jperkins@redhat.com/dlloyd@redhat.com;GIT;https://github.com/jboss-logging/slf4j-jboss-logmanager.git;master;1.0.3.GA;org.jboss.slf4j;;;
 jboss-logmanager;jperkins@redhat.com;GIT;https://github.com/jboss-logging/jboss-logmanager.git;2.0;2.0.4.Final;org.jboss.logmanager;;;
 jboss-metadata;cdewolf@@redhat.com/sdouglas@redhat.com;GIT;https://github.com/jboss/metadata.git;master;10.0.0.Final;org.jboss.metadata;;;
@@ -142,7 +142,7 @@ jbossws-jbossws-common-tools;asoldano@redhat.com;GIT;https://github.com/jbossws/
 jbossws-jbossws-cxf;asoldano@redhat.com;GIT;https://github.com/jbossws/jbossws-cxf.git;jbossws-cxf-5.1.x;jbossws-cxf-5.1.5.Final;org.jboss.ws.cxf;;;
 jbossws-jbossws-spi;asoldano@redhat.com;GIT;https://github.com/jbossws/jbossws-spi.git;jbossws-spi-3.1.x;jbossws-spi-3.1.2.Final;org.jboss.ws;;;
 jcip-annotations;;ARCHIVE;http://jcip.net/jcip-annotations-src.jar;;1.0.redhat-6;net.jcip;;;
-jdeparser;tcerar@redhat.com;GIT;https://github.com/jdeparser/jdeparser;;1;org.jboss.jdeparser;;; EAP7  is at 2.x, repo has 1.0 and 1.1
+jdeparser;tcerar@redhat.com;GIT;https://github.com/jdeparser/jdeparser;;;org.jboss.jdeparser;;; EAP7  is at 2.x, repo has 1.0 and 1.1
 jdom;https://github.com/rolfl;GIT;https://github.com/hunterhacker/jdom.git;jdom-1.1;jdom-1.1.3;org.jdom;;;
 JGroups;belaban@yahoo.com;GIT;https://github.com/belaban/JGroups.git;3.6;JGroups-3.6.11.Final;org.jgroups;;;
 jgroups-extras-jgroups-azure;rhusar@redhat.com;GIT;https://github.com/jgroups-extras/jgroups-azure.git;master;1.0.0.Final;org.jgroups;;;
@@ -165,7 +165,7 @@ shibboleth-utilities-java-support;;GIT;git://git.shibboleth.net/java-support;;7.
 shrinkwrap-shrinkwrap;arubinge@redhat.com/aknutsen@redhat.com;GIT;https://github.com/shrinkwrap/shrinkwrap.git;master;1.1.2;org.jboss.shrinkwrap;;; There is no 1.1.x, only 1.0.x. Master is at 1.2.x
 slf4j;ceki@qos.ch;GIT;https://github.com/qos-ch/slf4j;master;v1.7.7;org.slf4j;;;
 snakeyaml;Andrey Somov;GIT;https://bitbucket.org/asomov/snakeyaml;default;v1.15;org.yaml;;;
-soa-soa-component-management;;GIT;???;;2.3.0.redhat-9;org.jboss.dv.component.management;;; No upstream, git.app https://code.engineering.redhat.com/gerrit/soa/soa-component-management.git
+soa-soa-component-management;;GIT;;;2.3.0.redhat-9;org.jboss.dv.component.management;;; No upstream, git.app https://code.engineering.redhat.com/gerrit/soa/soa-component-management.git
 spullara-mustache.java;sam@sampullara.com;GIT;https://github.com/spullara/mustache.java;mustache.java-0.8.x;mustache.java-0.8.13;com.github.spullara.mustache.java;;;
 undertow-io-jastow;sdouglas@redhat.com;GIT;https://github.com/undertow-io/jastow;master;2.0.1.Final;io.undertow.jastow;;;
 undertow-io-undertow;sdouglas@redhat.com;GIT;https://github.com/undertow-io/undertow;1.4.x;1.4.4.Final;io.undertow;;;
