@@ -126,8 +126,8 @@ init_script
 
 while read component; do
 # component content
-# undertow-io-undertow-js;sdouglas@redhat.com;GIT;https://github.com/undertow-io/undertow.js.git;1.0.x;1.0.2.Final;io.undertow.js;$TAG_DIF_BRANCH;$LINES_OF_CODE;$COMMENT
-#     0                           1            2               3                                   4      5           6              7                 8              9  
+# undertow-io-undertow-js;sdouglas@redhat.com;GIT;https://github.com/undertow-io/undertow.js.git;1.0.x;1.0.2.Final;1.0.2.Final-redaht-599;io.undertow.js;$TAG_DIF_BRANCH;$LINES_OF_CODE;$COMMENT
+#     0                           1            2               3                                   4      5                6                      7             8              9           10
     IFS=';' read -ra PIECES <<< "$component"
     tableCreateRowStart
     tableCreateCell "${PIECES[0]}"
@@ -137,6 +137,7 @@ while read component; do
     tableCreateCell "${PIECES[4]}"
     tableCreateCell "${PIECES[5]}"
     tableCreateCell "${PIECES[6]}"
+    tableCreateCell "${PIECES[7]}"
 
     if [ "${PIECES[2]}" = "SVN" ]; then
         checkoutSVN "${PIECES[3]}" "${PIECES[4]}"
@@ -165,11 +166,11 @@ while read component; do
         fi
     
     else 
-        tableCreateCell "${PIECES[7]}"
-        tableCreateCellLink "${PIECES[8]}"
+        tableCreateCell "${PIECES[8]}"
+        tableCreateCellLink "${PIECES[9]}"
     fi
     #if [ ${#distro[@]} = 10 ]; then
-        tableCreateCell "${PIECES[9]}"
+        tableCreateCell "${PIECES[10]}"
     #fi
     
     tableCreateRowEnd
