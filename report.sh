@@ -4,7 +4,7 @@
 
 
 #directory to which we will checkout git repos and do magic.
-REPO_DIR="tmp-repo"
+REPO_DIR=${REPO_DIR:-$(mktemp -d)}
 INIT_DIR="`pwd`"
 OUTPUT_DIR="report"
 OUTPUT_CODE_DIR="_code_"
