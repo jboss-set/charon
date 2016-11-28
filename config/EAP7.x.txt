@@ -1,5 +1,5 @@
 A-MQ-artemis-wildfly-integration;mtaylor@redhat.com;GIT;https://github.com/rh-messaging/artemis-wildfly-integration.git;master;1.0.2;1.0.2.redhat-1;org.jboss.activemq.artemis.integration;;;
-aesh;alexey.loubyansky@redhat.com;GIT;https://github.com/aeshell/aesh.git;0.66+;0.66.11;0.66.11.redhat-1;org.jboss.aesh;;;
+aesh;alexey.loubyansky@redhat.com;GIT;https://github.com/aeshell/aesh.git;0.66.+;0.66.11;0.66.11.redhat-1;org.jboss.aesh;;;
 antlr2;parrt@cs.usfca.edu;ARCHIVE;http://www.antlr2.org/download/antlr-2.7.7.tar.gz;;2.7.7.redhat-7;2.7.7.redhat-7;antlr;;;
 apache-activemq-artemis;;GIT;https://github.com/rh-messaging/jboss-activemq-artemis.git;jboss-1.5.0-x;;1.5.0.redhat-1;org.apache.activemq;;; There is no tag in repo, it is in git.app
 apache-commons-beanutils;apache;GIT;https://github.com/apache/commons-beanutils.git;trunk;BEANUTILS_1_9_2;1.9.2.redhat-2;commons-beanutils;;;
