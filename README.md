@@ -30,6 +30,7 @@ Record values are as follows:
 * Repository URL
 * Maintenance branch if any
 * Tag present in EAP - if any
+* Version of artifact present in EAP/WFLY
 * Maven GroupID
 * Difference in commits between maintenance branch and tag
 * CLOC report
