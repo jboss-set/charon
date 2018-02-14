@@ -3,3 +3,7 @@
 
 #eclipse
 .project
+
+#us
+report
+config/*input.txt

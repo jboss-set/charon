@@ -21,6 +21,7 @@ init_script(){
     clean
     mkdir "$OUTPUT_DIR"
     mkdir "$OUTPUT_DIR/$OUTPUT_CODE_DIR"
+    mkdir "$REPO_DIR"
     cat $REPORT_INIT >> "$OUTPUT_HANDLE"
 }
 
